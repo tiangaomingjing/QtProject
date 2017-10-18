@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+class QTreeWidgetItem;
+
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +19,8 @@ public:
 
 private:
   Ui::MainWindow *ui;
+  int writeAddress(QTreeWidgetItem *node, int newAddress);
+  int changeAddress(QTreeWidgetItem *node, int newAddress);
 };
 
 #endif // MAINWINDOW_H
