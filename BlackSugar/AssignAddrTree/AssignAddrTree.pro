@@ -4,17 +4,20 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui designer
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+INCLUDEPATH+=../QtTreeManager
 
 TARGET = AssignAddrTree
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    ../QtTreeManager/qttreemanager.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    ../QtTreeManager/qttreemanager.h
 
 FORMS    += mainwindow.ui
