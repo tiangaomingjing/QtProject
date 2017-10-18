@@ -14,7 +14,8 @@ MainWindow::MainWindow(QWidget *parent) :
   QTreeWidgetItem *node;
   int newAddress = 0;
   //tree->invisibleRootItem();
-  for (int i = 0; i < tree->topLevelItemCount(); i++) {
+  for (int i = 0; i < tree->topLevelItemCount(); i++)
+  {
       node = tree->topLevelItem(i);
       newAddress = changeAddress(node, newAddress);
   }
