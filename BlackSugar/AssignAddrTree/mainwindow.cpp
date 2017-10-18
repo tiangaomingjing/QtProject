@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent) :
   QtTreeManager::writeTreeWidgetToXmlFile("Result.ui", tree);
   tree->show();
   //good job
+  //test 2
 }
 
 MainWindow::~MainWindow()
