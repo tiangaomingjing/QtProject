@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "qttreemanager.h"
 #include <QTreeWidget>
@@ -21,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent) :
   }
   QtTreeManager::writeTreeWidgetToXmlFile("Result.ui", tree);
   tree->show();
+  //good job
 }
 
 MainWindow::~MainWindow()
