@@ -8,6 +8,8 @@ class QLabel;
 class QTreeWidget;
 class QTreeWidgetItem;
 
+class QTreeWidgetItem;
+
 namespace Ui {
 class MainWindow;
 }

@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "qttreemanager.h"
 #include <QTreeWidget>
@@ -50,6 +50,19 @@ MainWindow::MainWindow(QWidget *parent) :
 
   statusBar()->addWidget(m_msgLabel);
   statusBar()->setStyleSheet(QString("QStatusBar::item{border: 0px}"));
+  QTreeWidget *tree = QtTreeManager::createTreeWidgetFromXmlFile("F:/QtTreeManager/SD41P003.ui");
+  QTreeWidgetItem *node;
+  int newAddress = 0;
+  //tree->invisibleRootItem();
+  for (int i = 0; i < tree->topLevelItemCount(); i++)
+  {
+      node = tree->topLevelItem(i);
+      newAddress = changeAddress(node, newAddress);
+  }
+  QtTreeManager::writeTreeWidgetToXmlFile("Result.ui", tree);
+  tree->show();
+  //good job
+  //test 2
 }
 
 MainWindow::~MainWindow()
@@ -134,3 +147,4 @@ void MainWindow::enable() {
     m_assignAddr->setEnabled(true);
     m_saveAction->setEnabled(true);
 }
+
