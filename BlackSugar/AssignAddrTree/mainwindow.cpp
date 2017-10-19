@@ -55,6 +55,7 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
   delete ui;
+  //
 }
 
 int MainWindow::writeAddress(QTreeWidgetItem *node, int newAddress) {
