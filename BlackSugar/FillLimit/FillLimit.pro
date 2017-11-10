@@ -24,3 +24,7 @@ HEADERS  += fillwindow.h \
 
 FORMS    += fillwindow.ui \
     filldialog.ui
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
