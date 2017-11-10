@@ -21,6 +21,7 @@ FillWindow::FillWindow(QWidget *parent) :
     file->addAction(m_startAction);
 
     connect(m_startAction, SIGNAL(triggered()), this, SLOT(start()));
+
 }
 
 FillWindow::~FillWindow()
