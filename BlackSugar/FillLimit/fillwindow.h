@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 
+class QAction;
+
+
 namespace Ui {
 class FillWindow;
 }
@@ -15,8 +18,14 @@ public:
   explicit FillWindow(QWidget *parent = 0);
   ~FillWindow();
 
+
+private slots:
+    void start();
 private:
-  Ui::FillWindow *ui;
+    Ui::FillWindow *ui;
+private:
+    QAction *m_startAction;
+
 };
 
 #endif // FILLWINDOW_H
