@@ -4,17 +4,23 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui designer
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+INCLUDEPATH+=../QtTreeManager
 
 TARGET = FillLimit
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        fillwindow.cpp
+        fillwindow.cpp \
+    ../QtTreeManager/qttreemanager.cpp \
+    filldialog.cpp
 
-HEADERS  += fillwindow.h
+HEADERS  += fillwindow.h \
+    ../QtTreeManager/qttreemanager.h \
+    filldialog.h
 
-FORMS    += fillwindow.ui
+FORMS    += fillwindow.ui \
+    filldialog.ui
