@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>665</width>
-    <height>471</height>
+    <width>736</width>
+    <height>553</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -181,6 +181,9 @@
        </property>
        <property name="text">
         <string>null</string>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </item>
      </item>
@@ -668,9 +671,6 @@
               <property name="text">
                <string>186.6</string>
               </property>
-              <property name="text">
-               <string>124.4</string>
-              </property>
               <item>
                <property name="text">
                 <string>maximum</string>
@@ -695,6 +695,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -724,6 +727,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1308,9 +1314,6 @@
                <property name="text">
                 <string>4300</string>
                </property>
-               <property name="text">
-                <string>3900</string>
-               </property>
                <item>
                 <property name="text">
                  <string>Maximum</string>
@@ -1335,6 +1338,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -1364,6 +1370,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -1398,9 +1407,6 @@
                <property name="text">
                 <string>2300</string>
                </property>
-               <property name="text">
-                <string>1800</string>
-               </property>
                <item>
                 <property name="text">
                  <string>Maximum</string>
@@ -1425,6 +1431,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -1454,6 +1463,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -1547,9 +1559,6 @@
               <property name="text">
                <string>2800</string>
               </property>
-              <property name="text">
-               <string>2500</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -1574,6 +1583,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1603,6 +1615,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1637,9 +1652,6 @@
               <property name="text">
                <string>1750</string>
               </property>
-              <property name="text">
-               <string>1400</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -1664,6 +1676,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1693,6 +1708,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1785,9 +1803,6 @@
               <property name="text">
                <string>4000</string>
               </property>
-              <property name="text">
-               <string>3800</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -1812,6 +1827,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1841,6 +1859,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1875,9 +1896,6 @@
               <property name="text">
                <string>3750</string>
               </property>
-              <property name="text">
-               <string>3500</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -1902,6 +1920,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -1931,6 +1952,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -3762,9 +3786,6 @@
                <property name="text">
                 <string>55</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -3793,9 +3814,6 @@
                </property>
                <property name="text">
                 <string>250</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -5392,12 +5410,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -5422,6 +5434,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -6528,6 +6546,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -6583,12 +6607,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -8217,9 +8235,6 @@
                <property name="text">
                 <string>55</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -8248,9 +8263,6 @@
                </property>
                <property name="text">
                 <string>250</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -9847,12 +9859,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -9877,6 +9883,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -10983,6 +10995,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -11038,12 +11056,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -12672,9 +12684,6 @@
                <property name="text">
                 <string>55</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -12703,9 +12712,6 @@
                </property>
                <property name="text">
                 <string>250</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -14302,12 +14308,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -14332,6 +14332,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -15438,6 +15444,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -15493,12 +15505,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -17127,9 +17133,6 @@
                <property name="text">
                 <string>55</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -17158,9 +17161,6 @@
                </property>
                <property name="text">
                 <string>250</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -18757,12 +18757,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -18787,6 +18781,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -19893,6 +19893,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -19948,12 +19954,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -21479,6 +21479,27 @@
           <property name="text">
            <string>41000509</string>
           </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
          </item>
          <item>
           <property name="text">
@@ -21487,16 +21508,85 @@
           <property name="text">
            <string>51000509</string>
           </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
          </item>
         </item>
         <item>
          <property name="text">
           <string>series 2</string>
          </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
         </item>
         <item>
          <property name="text">
           <string>series 3</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
          </property>
         </item>
        </item>
@@ -21928,9 +22018,6 @@
               <property name="text">
                <string>186.6</string>
               </property>
-              <property name="text">
-               <string>124.4</string>
-              </property>
               <item>
                <property name="text">
                 <string>maximum</string>
@@ -21955,6 +22042,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -21984,6 +22074,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -22568,9 +22661,6 @@
                <property name="text">
                 <string>4300</string>
                </property>
-               <property name="text">
-                <string>3900</string>
-               </property>
                <item>
                 <property name="text">
                  <string>Maximum</string>
@@ -22595,6 +22685,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -22624,6 +22717,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -22658,9 +22754,6 @@
                <property name="text">
                 <string>2300</string>
                </property>
-               <property name="text">
-                <string>1800</string>
-               </property>
                <item>
                 <property name="text">
                  <string>Maximum</string>
@@ -22685,6 +22778,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -22714,6 +22810,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -22807,9 +22906,6 @@
               <property name="text">
                <string>2800</string>
               </property>
-              <property name="text">
-               <string>2500</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -22834,6 +22930,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -22863,6 +22962,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -22897,9 +22999,6 @@
               <property name="text">
                <string>1750</string>
               </property>
-              <property name="text">
-               <string>1400</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -22924,6 +23023,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -22953,6 +23055,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -23045,9 +23150,6 @@
               <property name="text">
                <string>4000</string>
               </property>
-              <property name="text">
-               <string>3800</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -23072,6 +23174,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -23101,6 +23206,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -23135,9 +23243,6 @@
               <property name="text">
                <string>3750</string>
               </property>
-              <property name="text">
-               <string>3500</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -23162,6 +23267,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -23191,6 +23299,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -25022,9 +25133,6 @@
                <property name="text">
                 <string>55</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -25053,9 +25161,6 @@
                </property>
                <property name="text">
                 <string>250</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -26652,12 +26757,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -26682,6 +26781,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -27788,6 +27893,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -27843,12 +27954,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -29477,9 +29582,6 @@
                <property name="text">
                 <string>55</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -29508,9 +29610,6 @@
                </property>
                <property name="text">
                 <string>250</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -31107,12 +31206,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -31137,6 +31230,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -32243,6 +32342,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -32298,12 +32403,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -33932,9 +34031,6 @@
                <property name="text">
                 <string>35</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -33963,9 +34059,6 @@
                </property>
                <property name="text">
                 <string>200</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -35562,12 +35655,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -35592,6 +35679,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -36698,6 +36791,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -36753,12 +36852,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -38387,9 +38480,6 @@
                <property name="text">
                 <string>35</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -38418,9 +38508,6 @@
                </property>
                <property name="text">
                 <string>200</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -40017,12 +40104,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -40047,6 +40128,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -41153,6 +41240,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -41208,12 +41301,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -42842,9 +42929,6 @@
                <property name="text">
                 <string>20</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -42873,9 +42957,6 @@
                </property>
                <property name="text">
                 <string>150</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -44472,12 +44553,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -44502,6 +44577,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -45608,6 +45689,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -45663,12 +45750,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -47297,9 +47378,6 @@
                <property name="text">
                 <string>20</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -47328,9 +47406,6 @@
                </property>
                <property name="text">
                 <string>150</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -48927,12 +49002,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -48957,6 +49026,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -50063,6 +50138,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -50118,12 +50199,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -52014,9 +52089,6 @@
               <property name="text">
                <string>186.6</string>
               </property>
-              <property name="text">
-               <string>124.4</string>
-              </property>
               <item>
                <property name="text">
                 <string>maximum</string>
@@ -52041,6 +52113,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -52070,6 +52145,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -52654,9 +52732,6 @@
                <property name="text">
                 <string>4300</string>
                </property>
-               <property name="text">
-                <string>3900</string>
-               </property>
                <item>
                 <property name="text">
                  <string>Maximum</string>
@@ -52681,6 +52756,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -52710,6 +52788,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -52744,9 +52825,6 @@
                <property name="text">
                 <string>2300</string>
                </property>
-               <property name="text">
-                <string>1800</string>
-               </property>
                <item>
                 <property name="text">
                  <string>Maximum</string>
@@ -52771,6 +52849,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -52800,6 +52881,9 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -52893,9 +52977,6 @@
               <property name="text">
                <string>2800</string>
               </property>
-              <property name="text">
-               <string>2500</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -52920,6 +53001,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -52949,6 +53033,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -52983,9 +53070,6 @@
               <property name="text">
                <string>1750</string>
               </property>
-              <property name="text">
-               <string>1400</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -53010,6 +53094,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -53039,6 +53126,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -53131,9 +53221,6 @@
               <property name="text">
                <string>4000</string>
               </property>
-              <property name="text">
-               <string>3800</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -53158,6 +53245,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -53187,6 +53277,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -53221,9 +53314,6 @@
               <property name="text">
                <string>3750</string>
               </property>
-              <property name="text">
-               <string>3500</string>
-              </property>
               <item>
                <property name="text">
                 <string>Maximum</string>
@@ -53248,6 +53338,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -53277,6 +53370,9 @@
                </property>
                <property name="text">
                 <string>null</string>
+               </property>
+               <property name="text">
+                <string/>
                </property>
                <property name="text">
                 <string/>
@@ -55108,9 +55204,6 @@
                <property name="text">
                 <string>150</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -55139,9 +55232,6 @@
                </property>
                <property name="text">
                 <string>640</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -56738,12 +56828,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -56768,6 +56852,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -57874,6 +57964,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -57929,12 +58025,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -59563,9 +59653,6 @@
                <property name="text">
                 <string>150</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -59594,9 +59681,6 @@
                </property>
                <property name="text">
                 <string>640</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -61193,12 +61277,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -61223,6 +61301,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -62329,6 +62413,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -62384,12 +62474,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -64018,9 +64102,6 @@
                <property name="text">
                 <string>100</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -64049,9 +64130,6 @@
                </property>
                <property name="text">
                 <string>420</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -65648,12 +65726,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -65678,6 +65750,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -66784,6 +66862,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -66839,12 +66923,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -68473,9 +68551,6 @@
                <property name="text">
                 <string>100</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -68504,9 +68579,6 @@
                </property>
                <property name="text">
                 <string>420</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -70103,12 +70175,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -70133,6 +70199,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -71239,6 +71311,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -71294,12 +71372,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -72928,9 +73000,6 @@
                <property name="text">
                 <string>20</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -72959,9 +73028,6 @@
                </property>
                <property name="text">
                 <string>150</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -74558,12 +74624,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -74588,6 +74648,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -75694,6 +75760,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -75749,12 +75821,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -77383,9 +77449,6 @@
                <property name="text">
                 <string>20</string>
                </property>
-               <property name="text">
-                <string>0</string>
-               </property>
               </item>
               <item>
                <property name="text">
@@ -77414,9 +77477,6 @@
                </property>
                <property name="text">
                 <string>150</string>
-               </property>
-               <property name="text">
-                <string>0</string>
                </property>
               </item>
               <item>
@@ -79013,12 +79073,6 @@
                <property name="text">
                 <string/>
                </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="text">
-                <string>axis.cur.sampling</string>
-               </property>
                <item>
                 <property name="text">
                  <string>hall current sensor</string>
@@ -79043,6 +79097,12 @@
                 </property>
                 <property name="text">
                  <string>null</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
                 </property>
                 <property name="text">
                  <string/>
@@ -80149,6 +80209,12 @@
                 <property name="text">
                  <string/>
                 </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
                 <item>
                  <property name="text">
                   <string>Resistance parameter</string>
@@ -80204,12 +80270,6 @@
                   </property>
                   <property name="text">
                    <string/>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="text">
-                   <string>axis.cur.sampling.shunt.res.value</string>
                   </property>
                  </item>
                  <item>
@@ -81735,10 +81795,58 @@
        <property name="text">
         <string>A系列</string>
        </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
       </item>
       <item>
        <property name="text">
         <string>B系列</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </item>
      </item>

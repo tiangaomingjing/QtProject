@@ -130,7 +130,7 @@ void MainWindow::assign() {
         newAddress = changeAddress(node, newAddress);
     }*/
     //m_tree->show();
-    node = m_tree->invisibleRootItem()->child(1)->child(0)->child(0)->child(0)->child(0);
+    node = m_tree->invisibleRootItem()->child(1)->child(0)->child(1)->child(0)->child(0);
     newAddress = changeAddress(node, newAddress);
     QMessageBox::information(this, "Assign", "Finish!", QMessageBox::Ok);
 }
