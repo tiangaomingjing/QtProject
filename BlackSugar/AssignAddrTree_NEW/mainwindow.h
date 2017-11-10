@@ -39,6 +39,7 @@ private:
   QAction *m_saveAction;
   QLabel *m_msgLabel;
   QTreeWidget *m_tree;
+  bool continueAssign;
 };
 
 #endif // MAINWINDOW_H

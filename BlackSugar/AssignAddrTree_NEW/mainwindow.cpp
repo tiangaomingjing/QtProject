@@ -12,9 +12,13 @@
 #include <QLabel>
 #include <QStatusBar>
 #include <QFileDialog>
-enum ColTreeInx{
-    COL_TREE_INX_NAME,
-    COL_TREE_INX_VALUE
+enum TREE{
+    TREE_NAME = 0,
+    TREE_VALUE = 1,
+    TREE_SCALE = 3,
+    TREE_TYPE = 5,
+    TREE_ADDRESS = 6,
+    TREE_VISIBLE = 11
 };
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -63,17 +67,12 @@ MainWindow::~MainWindow()
 }
 
 int MainWindow::writeAddress(QTreeWidgetItem *node, int newAddress) {
-     QString str_type = node->text(5); // type
-     QString str_address = node->text(6); // address
-     QString str_value = node->text(1); // value
-     if (str_address == "1" || str_address == "-2" || str_address == "-3") {
-         if (str_value == "") {
-             node->setText(1, "0");
-         }
-         node->setText(6, QString("0x%1").arg(newAddress, 4, 16, QLatin1Char('0')));
-     } else if (str_address == "-1") {
-         return newAddress;
-     }
+     QString str_type = node->text(TREE_TYPE); // type
+     QString str_address = node->text(TREE_ADDRESS); // address
+     QString str_value = node->text(TREE_VALUE); // value
+     QString str_scale = node->text(TREE_SCALE); // scale
+     QString str_name = node->text(TREE_NAME);
+     bool ok;
      int increment = 0;
      if (str_type == "Uint8") {
          increment = 1;
@@ -82,21 +81,39 @@ int MainWindow::writeAddress(QTreeWidgetItem *node, int newAddress) {
      } else if (str_type == "Uint32") {
          increment = 4;
      }
+     double temp = str_value.toDouble(&ok) * str_scale.toDouble(&ok);
+     if (ok && str_address != "-1") {
+         if (temp < -pow(256, increment) || temp > pow(256, increment)) {
+             QMessageBox::warning(this, "Assign", "Out of range on " + str_name, QMessageBox::Ok);
+             continueAssign = false;
+             return 0;
+         }
+     }
+     if (str_address == "1" || str_address == "-2" || str_address == "-3") {
+         if (str_value == "") {
+             node->setText(1, "0");
+         }
+         node->setText(6, QString("0x%1").arg(newAddress, 4, 16, QLatin1Char('0')));
+     } else if (str_address == "-1") {
+         return newAddress;
+     }
      newAddress += increment;
      return newAddress;
 }
 
 int MainWindow::changeAddress(QTreeWidgetItem *node, int newAddress) {
-    QString str_type = node->text(5); // type
-    newAddress = writeAddress(node, newAddress);
-    if (str_type == "Case") {
-        int currentAddress = newAddress;
-        for (int i = 0; i < node->childCount(); i++) {
-            newAddress = changeAddress(node->child(i), currentAddress);
-        }
-    } else {
-        for (int i = 0; i < node->childCount(); i++) {
-            newAddress = changeAddress(node->child(i), newAddress);
+    if (continueAssign) {
+        QString str_type = node->text(5); // type
+        newAddress = writeAddress(node, newAddress);
+        if (str_type == "Case") {
+            int currentAddress = newAddress;
+            for (int i = 0; i < node->childCount(); i++) {
+                newAddress = changeAddress(node->child(i), currentAddress);
+            }
+         } else {
+            for (int i = 0; i < node->childCount(); i++) {
+                newAddress = changeAddress(node->child(i), newAddress);
+            }
         }
     }
     return newAddress;
@@ -104,17 +121,22 @@ int MainWindow::changeAddress(QTreeWidgetItem *node, int newAddress) {
 
 void MainWindow::assign() {
     QTreeWidgetItem *node;
-    int newAddress = 0;
+    //int newAddress = 0;
+    int newAddress = 1;
     //tree->invisibleRootItem();
-    for (int i = 0; i < m_tree->topLevelItemCount(); i++) {
+    continueAssign = true;
+    /*for (int i = 0; i < m_tree->topLevelItemCount(); i++) {
         node = m_tree->topLevelItem(i);
         newAddress = changeAddress(node, newAddress);
-    }
-    m_tree->show();
+    }*/
+    //m_tree->show();
+    node = m_tree->invisibleRootItem()->child(1)->child(0)->child(0)->child(0)->child(0);
+    newAddress = changeAddress(node, newAddress);
+    QMessageBox::information(this, "Assign", "Finish!", QMessageBox::Ok);
 }
 
 void MainWindow::open() {
-    QString path = QFileDialog::getOpenFileName(this, tr("Open File"), ".", tr("Files(*.xml)"));
+    QString path = QFileDialog::getOpenFileName(this, tr("Open File"), ".", tr("Files(*.ui)"));
     if (path.length() == 0) {
         QMessageBox::information(NULL, tr("Path"), tr("You did not select any files."));
     } else {
@@ -126,7 +148,7 @@ void MainWindow::open() {
 }
 
 void MainWindow::save() {
-    QString path = QFileDialog::getSaveFileName(this, tr("Save File"), ".", tr("Files(*.xml)"));
+    QString path = QFileDialog::getSaveFileName(this, tr("Save File"), ".", tr("Files(*.ui)"));
     if (path.length() == 0) {
         QMessageBox::information(NULL, tr("Path"), tr("You did not select any files."));
     } else {
