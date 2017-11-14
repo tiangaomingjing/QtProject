@@ -4,17 +4,20 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui designer
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+INCLUDEPATH += ../QtTreeManager
 
 TARGET = Together
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        dialog.cpp
+        dialog.cpp \
+    ../QtTreeManager/qttreemanager.cpp
 
-HEADERS  += dialog.h
+HEADERS  += dialog.h \
+    ../QtTreeManager/qttreemanager.h
 
 FORMS    += dialog.ui

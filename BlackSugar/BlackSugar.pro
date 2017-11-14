@@ -3,4 +3,5 @@ TEMPLATE = subdirs
 SUBDIRS += \
     AssignAddrTree \
     FillLimit \
-    AssignAddrTree_NEW
+    AssignAddrTree_NEW \
+    Together
