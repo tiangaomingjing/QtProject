@@ -27,6 +27,7 @@ private slots:
   void assign();
   void save();
   void enable();
+  //void test();
 private:
   int writeAddress(QTreeWidgetItem *node, int newAddress);
   int changeAddress(QTreeWidgetItem *node, int newAddress);
