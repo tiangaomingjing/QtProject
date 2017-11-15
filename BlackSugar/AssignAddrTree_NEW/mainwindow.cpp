@@ -18,7 +18,6 @@ enum TREE{
     TREE_SCALE = 3,
     TREE_TYPE = 5,
     TREE_ADDRESS = 6,
-    TREE_VISIBLE = 11
 };
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -58,6 +57,8 @@ MainWindow::MainWindow(QWidget *parent) :
 
   statusBar()->addWidget(m_msgLabel);
   statusBar()->setStyleSheet(QString("QStatusBar::item{border: 0px}"));
+
+  //connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(test()));
 }
 
 MainWindow::~MainWindow()
@@ -93,7 +94,7 @@ int MainWindow::writeAddress(QTreeWidgetItem *node, int newAddress) {
          if (str_value == "") {
              node->setText(1, "0");
          }
-         node->setText(6, QString("0x%1").arg(newAddress, 4, 16, QLatin1Char('0')));
+         node->setText(TREE_ADDRESS, QString("0x%1").arg(newAddress, 4, 16, QLatin1Char('0')));
      } else if (str_address == "-1") {
          return newAddress;
      }
@@ -103,7 +104,7 @@ int MainWindow::writeAddress(QTreeWidgetItem *node, int newAddress) {
 
 int MainWindow::changeAddress(QTreeWidgetItem *node, int newAddress) {
     if (continueAssign) {
-        QString str_type = node->text(5); // type
+        QString str_type = node->text(TREE_TYPE); // type
         newAddress = writeAddress(node, newAddress);
         if (str_type == "Case") {
             int currentAddress = newAddress;
@@ -120,23 +121,33 @@ int MainWindow::changeAddress(QTreeWidgetItem *node, int newAddress) {
 }
 
 void MainWindow::assign() {
+    /*QTreeWidgetItem *node1;
+    QTreeWidgetItem *node2;
+    QTreeWidgetItem *node3;*/
     QTreeWidgetItem *node;
-    //int newAddress = 0;
-    int newAddress = 1;
+    int newAddress = 0;
+    //int newAddress = 1;
     //tree->invisibleRootItem();
     continueAssign = true;
-    /*for (int i = 0; i < m_tree->topLevelItemCount(); i++) {
+    for (int i = 0; i < m_tree->topLevelItemCount(); i++) {
         node = m_tree->topLevelItem(i);
         newAddress = changeAddress(node, newAddress);
-    }*/
+    }
     //m_tree->show();
-    node = m_tree->invisibleRootItem()->child(1)->child(0)->child(0)->child(0)->child(0);
-    newAddress = changeAddress(node, newAddress);
+    /*node1 = m_tree->invisibleRootItem()->child(1)->child(0)->child(0)->child(0)->child(0);
+    node2 = m_tree->invisibleRootItem()->child(1)->child(0)->child(1)->child(0)->child(0);
+    node3 = m_tree->invisibleRootItem()->child(1)->child(0)->child(1)->child(0)->child(1);
+    newAddress = changeAddress(node1, newAddress);
+    newAddress = 1;
+    newAddress = changeAddress(node2, newAddress);
+    newAddress = 1;
+    newAddress = changeAddress(node3, newAddress);
+    //m_tree->show();*/;
     QMessageBox::information(this, "Assign", "Finish!", QMessageBox::Ok);
 }
 
 void MainWindow::open() {
-    QString path = QFileDialog::getOpenFileName(this, tr("Open File"), ".", tr("Files(*.ui)"));
+    QString path = QFileDialog::getOpenFileName(this, tr("Open File"), "../../BlackSugar/AssignAddrTree_NEW", tr("Files(*.ui)"));
     if (path.length() == 0) {
         QMessageBox::information(NULL, tr("Path"), tr("You did not select any files."));
     } else {
@@ -148,12 +159,16 @@ void MainWindow::open() {
 }
 
 void MainWindow::save() {
-    QString path = QFileDialog::getSaveFileName(this, tr("Save File"), ".", tr("Files(*.ui)"));
+    QString path = QFileDialog::getSaveFileName(this, tr("Save File"), "../../BlackSugar/AssignAddrTree_NEW", tr("Files(*.ui)"));
     if (path.length() == 0) {
         QMessageBox::information(NULL, tr("Path"), tr("You did not select any files."));
     } else {
         QMessageBox::information(NULL, tr("Path"), tr("You selected ") + path);
+        /*QTreeWidgetItem *node = node = m_tree->invisibleRootItem()->child(1)->child(0)->child(0)->child(0)->child(0)->child(0)->child(1)->child(0)->child(1);
+        qDebug()<<node->text(TREE_NAME);
+        qDebug()<<node->text(9);*/
         QtTreeManager::writeTreeWidgetToXmlFile(path, m_tree);
+        m_tree->show();
     }
 }
 
@@ -162,3 +177,11 @@ void MainWindow::enable() {
     m_saveAction->setEnabled(true);
 }
 
+/*void MainWindow::test() {
+    QTreeWidget *tree;
+    tree = QtTreeManager::createTreeWidgetFromXmlFile("../../BlackSugar/AssignAddrTree_NEW/PowerBoard.ui");
+    tree->show();
+    qDebug()<<"0 "<<tree->topLevelItem(0)->columnCount();
+    qDebug()<<"1 "<<tree->topLevelItem(1)->columnCount();
+    QtTreeManager::writeTreeWidgetToXmlFile("../../BlackSugar/AssignAddrTree_NEW/PowerBoard_3.ui", tree);
+}*/

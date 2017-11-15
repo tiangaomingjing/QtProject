@@ -137,7 +137,6 @@ bool QtTreeManager::writeTreeWidgetToXmlFile(const QString &fileName, const QTre
         writer.writeTextElement("string", headerItem->text(i));
         writer.writeEndElement();
         writer.writeEndElement();
-        qDebug()<<"column:"<<i<<" "<< "text: "<<headerItem->text(i);
       }
       //开始写树结构
       QTreeWidgetItem *item;
@@ -173,13 +172,12 @@ bool QtTreeManager::writeTreeWidgetToXmlFile(const QString &fileName, const QTre
 void QtTreeManager::writeStructXmlFile(QTreeWidgetItem *item,QXmlStreamWriter *writer)
 {
   QTreeWidgetItem *itemChild;
-
   for (int i = 0; i<item->childCount();i++)
   {
     itemChild = item->child(i);
     writer->writeStartElement("item");
 
-    for(int j=0;j<item->columnCount();j++)
+    for(int j=0;j<itemChild->columnCount();j++)
     {
       writer->writeStartElement("property");
       writer->writeAttribute("name","text");

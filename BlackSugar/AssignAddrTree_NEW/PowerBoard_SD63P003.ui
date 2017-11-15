@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>665</width>
-    <height>471</height>
+    <width>1140</width>
+    <height>677</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1239,7 +1239,7 @@
                 <string/>
                </property>
                <property name="text">
-                <string>Uint16</string>
+                <string>Uint32</string>
                </property>
                <property name="text">
                 <string>0x0026</string>
@@ -22499,7 +22499,7 @@
                 <string/>
                </property>
                <property name="text">
-                <string>Uint16</string>
+                <string>Uint32</string>
                </property>
                <property name="text">
                 <string>0x0026</string>
@@ -52585,7 +52585,7 @@
                 <string/>
                </property>
                <property name="text">
-                <string>Uint16</string>
+                <string>Uint32</string>
                </property>
                <property name="text">
                 <string>0x0026</string>

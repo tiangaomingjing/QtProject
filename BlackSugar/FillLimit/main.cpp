@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-#include "fillwindow.h"
-=======
 
 #include "fillwindow.h"
 
->>>>>>> origin/master
 #include <QApplication>
 
 int main(int argc, char *argv[])
